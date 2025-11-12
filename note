@@ -1,0 +1,8 @@
+对于一些图片记录问题
+
+1. bird.jpg
+问题： what kinds of two birds
+回答:['\nThe bird in the foreground is a Yellow Warbler, identifiable by its bright yellow plumage and distinctive black streaks on its head. The bird in the background appears to be a Great Egret, which is a large white egret with long legs and a long, sharp beak. The Great Egret is known for its elegant appearance and is often seen in wetlands and marshes.']
+
+
+明显错误： 鸟的种类不对，尤其是不可能是白鹭。
