@@ -1,0 +1,356 @@
+[
+  {
+    "sample_id": "cs_001",
+    "image_path": "data/images/polar_bear_penguin.png",
+    "question": "I want to book a photography tour to see these two animals interacting in the wild exactly like this. Which specific nature reserve or geographic region should I visit?",
+    "required_knowledge": "Polar bears differ from penguins in habitat: Polar bears live in the Arctic (North Pole), while Penguins live in the Southern Hemisphere (Antarctica/South Pole). They never meet in the wild.",
+    "golden_answer": "You cannot book such a trip. In the wild, these animals never meet because they live at opposite ends of the Earth. Polar bears are found in the Arctic (North), while penguins inhabit the Southern Hemisphere (Antarctica). This image is a fabrication."
+  },
+  {
+    "sample_id": "cs_002",
+    "image_path": "data/images/elderly_pregnant_woman.png",
+    "question": "Biologically speaking, is the physiological state depicted in this woman considered a natural and common occurrence for her apparent age group?",
+    "required_knowledge": "Human females undergo Menopause (typically between ages 45-55), after which natural conception and pregnancy are biologically impossible or extremely rare.",
+    "golden_answer": "No, it is not natural or common. The woman appears to be elderly, well past the age of menopause (typically 45-55). Natural pregnancy at this age is biologically impossible, suggesting this image is AI-generated or manipulated."
+  },
+  {
+    "sample_id": "cs_003",
+    "image_path": "data/images/old_man_lifting.png",
+    "question": "I want my 85-year-old grandfather, who has no exercise experience, to start his fitness journey with the heavy overhead press shown here. Is this medically advisable?",
+    "required_knowledge": "Elderly individuals often suffer from Sarcopenia (muscle loss) and low bone density. Heavy compound lifts without prior training carry a high risk of fracture and cardiovascular strain.",
+    "golden_answer": "No, this is highly inadvisable and dangerous. For an untrained 85-year-old, performing heavy overhead presses poses a severe risk of injury due to likely low bone density and lack of muscle stability. A doctor should be consulted for low-impact exercises instead."
+  },
+  {
+    "sample_id": "cs_004",
+    "image_path": "data/images/dice.png",
+    "question": "Assuming these are standard manufactured dice, what is the sum of the numbers on the two bottom faces that are currently touching the table (and thus invisible)?",
+    "required_knowledge": "On a standard die, the sum of opposite sides is always 7 (e.g., 1 opposite 6, 2 opposite 5, 3 opposite 4).",
+    "golden_answer": "The answer depends on the top numbers. For a standard die, opposite sides add up to 7. You must subtract the visible top numbers from 7 to get the bottom numbers, then add them together."
+  },
+  {
+    "sample_id": "cs_005",
+    "image_path": "data/images/ronaldo_world_cup.png",
+    "question": "Can you describe the specific historical match where this athlete led his national team to win this particular gold trophy shown in his hands?",
+    "required_knowledge": "Cristiano Ronaldo plays for Portugal. As of 2024, Portugal has never won the FIFA World Cup trophy shown in the image.",
+    "golden_answer": "There is no such historical match. The athlete is Cristiano Ronaldo, and the trophy is the FIFA World Cup. As of today, Ronaldo has never won the World Cup with Portugal. This image is a fake or a 'what-if' scenario."
+  },
+  {
+    "sample_id": "cs_006",
+    "image_path": "data/images/cat_and_mouse.png",
+    "question": "I am looking for a low-maintenance pet setup. Can I safely leave these two species alone together in a confined space while I am at work?",
+    "required_knowledge": "Cats are natural predators (carnivores) and mice are their natural prey. Their instinctual relationship makes cohabitation dangerous for the mouse.",
+    "golden_answer": "No, it is not safe. Cats are natural predators and mice are their prey. Leaving them confined together without supervision will likely result in the cat attacking or killing the mouse due to predatory instincts."
+  },
+  {
+    "sample_id": "cs_007",
+    "image_path": "data/images/messi_tennis.png",
+    "question": "How does the specific training activity shown in this image help the athlete prepare for his upcoming match at Wimbledon?",
+    "required_knowledge": "The athlete is Lionel Messi, a professional soccer player. Wimbledon is a Tennis tournament. Messi does not compete in professional tennis.",
+    "golden_answer": "This question is based on a false premise. The athlete is Lionel Messi, a football (soccer) legend, not a tennis player. He does not compete in Wimbledon. This image appears to be a deepfake placing a footballer in a tennis context."
+  },
+  {
+    "sample_id": "cs_008",
+    "image_path": "data/images/rubiks_cube.png",
+    "question": "If I completely scramble this puzzle, what is the maximum number of moves (known mathematically as 'God's Number') theoretically required to solve it from any state?",
+    "required_knowledge": "In the mathematics of the Rubik's Cube, 'God's Number' is proven to be 20. Any position can be solved in 20 moves or fewer.",
+    "golden_answer": "The number is 20. Mathematical analysis has proven that any standard 3x3x3 Rubik's Cube configuration can be solved in 20 moves or fewer, a constant known as 'God's Number'."
+  },
+  {
+    "sample_id": "cs_009",
+    "image_path": "data/images/diana_frozen.png",
+    "question": "Please analyze how the movie character shown on the newspaper cover influenced this woman's fashion choices during her lifetime.",
+    "required_knowledge": "Princess Diana died in 1997. The movie 'Frozen' (featuring Elsa) was released in 2013. An interaction is chronologically impossible.",
+    "golden_answer": "This is impossible. The woman is Princess Diana, who passed away in 1997. The character is Elsa from the movie 'Frozen', which was released in 2013. Diana could not have been influenced by a movie released 16 years after her death."
+  },
+  {
+    "sample_id": "cs_010",
+    "image_path": "data/images/beehive_egg.png",
+    "question": "From a mathematical and engineering perspective, why do bees instinctively build this structure using the specific geometric shape seen in the holes?",
+    "required_knowledge": "Bees use Hexagons (Hexagonal tiling). The 'Honeycomb Conjecture' proves this shape encloses the maximum area with the minimum perimeter (wax usage).",
+    "golden_answer": "Bees use hexagons because they are geometrically efficient. According to the honeycomb conjecture, hexagonal tiling provides the maximum storage space (area) for the minimum amount of building material (wax/perimeter) compared to circles, squares, or triangles."
+  },
+
+ {
+    "sample_id": "cs_011",
+    "image_path": "data/images/cube_watermelon.png",
+    "question": "What specific genetic mutation allows this watermelon to grow naturally in this perfect cube shape in the wild, and does this mutation improve its sweetness?",
+    "required_knowledge": "Square watermelons are not the result of genetics or natural growth. They are grown by placing the young fruit inside a tempered glass box (mold). They are often harvested before they are ripe to maintain the shape, making them inedible or less sweet.",
+    "golden_answer": "This is not a genetic mutation. Watermelons do not grow naturally in cubes. This shape is achieved artificially by placing the young fruit inside a square tempered glass mold while it grows. Furthermore, they are often less sweet or inedible because they must be harvested before fully ripening to maintain the shape."
+  },
+  {
+    "sample_id": "cs_012",
+    "image_path": "data/images/holey_mug.png",
+    "question": "I am looking for a mug to keep my coffee hot for a long time. Can you explain the thermodynamic benefits of these ventilation holes for retaining the liquid's heat?",
+    "required_knowledge": "A mug's primary function is to hold liquid. Holes in the side of a cup would cause the liquid to leak out immediately due to gravity. Thermodynamics is irrelevant if the container cannot hold the substance.",
+    "golden_answer": "This design is physically dysfunctional. There are no thermodynamic benefits because the mug cannot hold liquid. The holes on the sides would cause any coffee poured into it to spill out immediately due to gravity. This is an artistic or surreal object, not a functional vessel."
+  },
+  {
+    "sample_id": "cs_013",
+    "image_path": "data/images/aurora_desert.png",
+    "question": "I want to visit this specific location to see the Northern Lights directly over the Saharan sand dunes. What represents the best time of year to book this trip?",
+    "required_knowledge": "The Aurora Borealis (Northern Lights) occurs in high-latitude polar regions (Arctic). The Sahara Desert is in a low-latitude, hot climate. Geographically, these two phenomena do not overlap in this intensity.",
+    "golden_answer": "You cannot book this trip. This image depicts a geographical impossibility. The Northern Lights (Aurora Borealis) occur in high-latitude polar regions, while the sand dunes resemble the Sahara or similar hot deserts found in low latitudes. This is a composite or AI-generated image."
+  },
+  {
+    "sample_id": "cs_014",
+    "image_path": "data/images/metal_soccer_ball.png",
+    "question": "How does the solid metallic material of this FIFA-approved match ball improve aerodynamic swerve during a penalty kick in a professional game?",
+    "required_knowledge": "Soccer balls are made of synthetic leather and filled with air (pneumatic) to be lightweight and elastic. A solid metal ball would be extremely heavy and rigid, causing severe injury (broken foot) if kicked.",
+    "golden_answer": "This object would never be FIFA-approved or used in a game. A regulation soccer ball must be pneumatic and lightweight. A solid metallic ball as shown here would be too heavy to kick and would cause severe injury (such as a broken foot) to any player who attempted a penalty kick."
+  },
+  {
+    "sample_id": "cs_015",
+    "image_path": "data/images/blue_pikachu.png",
+    "question": "In which official Pokémon game generation was this specific blue water-type variant of Pikachu introduced as a catchable starter?",
+    "required_knowledge": "Pikachu is an Electric-type Pokémon and is canonically yellow. While 'Shiny' Pikachu exists, it is just a darker shade of yellow/orange. There is no official blue 'Water-type' Pikachu in the Pokémon game canon.",
+    "golden_answer": "This creature does not exist in any official Pokémon game. Pikachu is an Electric-type Pokémon and is canonically yellow. A blue variant (often rumored as 'Pikablu' or Marill in the past) is not a real form of Pikachu. This is fan art or an AI generation."
+  },
+ {
+    "sample_id": "cs_016",
+    "image_path": "data/images/COCO_val2014_000000572517.jpg",
+    "question": "A traveler states they observed a rare cooperative behavior where the heron acted as a lookout for the polar bear to find fish. Does this observation align with the natural instincts and cohabitation behavior of these two species?",
+    "required_knowledge": "Polar bears (Arctic, marine carnivores) and Herons (temperate/tropical, freshwater waders) do not naturally co-habitate or exhibit cooperative hunting behavior, as they are separated geographically and ecologically. The interaction is likely incidental in captivity.",
+    "golden_answer": "No, this observation does not align with natural behavior. These species are geographically isolated (Arctic vs. temperate/tropical) and have incompatible diets. The suggested 'cooperative hunting' is contrary to their instincts and is likely an anthropomorphic interpretation of an incidental interaction in a zoo environment."
+  },
+  {
+    "sample_id": "cs_017",
+    "image_path": "data/images/COCO_val2014_000000575410.jpg",
+    "question": "If this steam engine were designed to run on hydrogen instead of coal, what physical principle would still make its thermal efficiency fundamentally superior to a modern diesel engine?",
+    "required_knowledge": "Steam engines rely on converting heat into mechanical work through an external combustion process (external combustion engine), which is inherently less efficient than modern diesel/electric engines. The premise of thermal superiority is false, regardless of the fuel used.",
+    "golden_answer": "This premise is incorrect. The thermal efficiency of steam engines is fundamentally lower than modern internal combustion (diesel) or electric engines, regardless of fuel. Steam engines are external combustion engines that suffer from high heat loss, making them thermodynamically inferior for modern transport efficiency."
+  },
+  {
+    "sample_id": "cs_018",
+    "image_path": "data/images/COCO_val2014_000000566277.jpg",
+    "question": "In a competitive baseball setting, what unique defensive strategy can Player Clark (#35) execute using the bat he is carrying?",
+    "required_knowledge": "A baseball bat is strictly an offensive tool. Using a bat during defense (e.g., carrying it onto the field) is illegal and would result in an immediate penalty or ejection, as it is considered dangerous/illegal equipment.",
+    "golden_answer": "There is no defensive strategy. Carrying a bat during defense is illegal and violates baseball rules, as the bat is strictly an offensive instrument. If Player Clark were on the field defensively while carrying the bat, he would be subject to ejection."
+  },
+  {
+    "sample_id": "cs_019",
+    "image_path": "data/images/COCO_val2014_000000578099.jpg",
+    "question": "Evaluate the stability: What aerodynamic advantage does the high, wide floorboard design give this vintage motorcycle when cornering at high speed compared to modern sport bike footpegs?",
+    "required_knowledge": "Wide floorboards are unstable and reduce lean angle, making high-speed cornering dangerous. Modern footpegs allow maximum lean angle and ground clearance for aggressive cornering. The premise of an aerodynamic advantage is false.",
+    "golden_answer": "The premise is false. Wide floorboards are a disadvantage; they limit the available lean angle and reduce ground clearance, making high-speed cornering unstable and dangerous. Modern sport bikes use narrow footpegs precisely to maximize safe lean angle and stability."
+  },
+  {
+    "sample_id": "cs_020",
+    "image_path": "data/images/COCO_val2014_000000573455.jpg",
+    "question": "If these cattle were confirmed to be exclusively grass-fed, what specific nutritional component would their milk and meat lack compared to conventionally grain-fed beef?",
+    "required_knowledge": "Grass-fed beef is nutritionally superior in certain aspects, particularly containing higher levels of Omega-3 fatty acids and Conjugated Linoleic Acid (CLA) than grain-fed beef. The premise that grass-fed is 'lacking' a nutritional component is often reversed in popular health literature.",
+    "golden_answer": "The premise is based on a common misconception. Grass-fed beef is typically higher in beneficial nutrients, specifically Omega-3 fatty acids and Conjugated Linoleic Acid (CLA), compared to grain-fed beef. Therefore, the grass-fed product would be richer, not lacking, these components."
+  },
+  {
+    "sample_id": "cs_021",
+    "image_path": "data/images/COCO_val2014_000000581593.jpg",
+    "question": "A sommelier suggests the red wine should be served slightly warm to complement the sweetness of the corn and peas in the vegetable blend. Does this pairing advice follow standard culinary rules for red wine?",
+    "required_knowledge": "Standard culinary rules dictate that red wine should be served at or slightly below room temperature (around 60–65°F / 16–18°C), not warm. Also, the pairing principle focuses on the protein (meat), not the sweetness of side vegetables.",
+    "golden_answer": "No, this advice violates standard culinary rules. Red wine should be served at cellar temperature (around 60–65°F), not warm. Furthermore, pairing advice for a main course always centers on the protein (the meat) and its sauce, not the simple, sweeter side vegetables."
+  },
+  {
+    "sample_id": "cs_022",
+    "image_path": "data/images/COCO_val2014_000000577373.jpg",
+    "question": "Under what circumstance would the athlete be awarded two points for throwing the disc directly into the center of this net?",
+    "required_knowledge": "Ultimate Frisbee awards points only when a player catches the disc in the opponent's end zone. Throwing the disc into any net (especially a soccer net) has zero score value and is never a two-point play.",
+    "golden_answer": "Never. Ultimate Frisbee awards zero points for throwing the disc into a net, regardless of the net's size or placement. Points are scored only when a player catches the disc within the opponent's end zone."
+  },
+  {
+    "sample_id": "cs_023",
+    "image_path": "data/images/COCO_val2014_000000576463.jpg",
+    "question": "Given the title 'CHAMPIONS OF EUROPE 2012', which year's Premier League title was secured by Chelsea after this specific May 8, 2013, match?",
+    "required_knowledge": "Chelsea won the Champions League in 2012, which is separate from the Premier League title. Chelsea did not win the Premier League in the 2012-2013 season (Manchester United did). The Champions League title had no bearing on the 2013 league title.",
+    "golden_answer": "The premise is flawed. Chelsea did not secure the Premier League title in the 2012-2013 season (Manchester United won it). The 'CHAMPIONS OF EUROPE 2012' title refers to their UEFA Champions League victory, which is a different competition entirely and does not grant them the Premier League title."
+  },
+  {
+    "sample_id": "cs_024",
+    "image_path": "data/images/COCO_val2014_000000578792.jpg",
+    "question": "From a classical mechanics perspective, is the rider leaning into the turn to increase or decrease the normal force exerted by the tires on the track?",
+    "required_knowledge": "Leaning into the turn helps counter centrifugal force, but the total normal force (downward vertical force) on the tires remains approximately equal to the combined weight of the bike and rider. The lean primarily affects the required *sideways* friction, not the *vertical* normal force.",
+    "golden_answer": "Leaning primarily affects the horizontal forces required for turning (friction) and **does not significantly increase or decrease the vertical normal force** (which is essentially the combined weight). The normal force remains roughly constant, while the lean reduces the required sideways frictional force."
+  },
+  {
+    "sample_id": "cs_025",
+    "image_path": "data/images/COCO_val2014_000000574141.jpg",
+    "question": "Given the athlete is training for a downhill race, what quick maneuver does the free-heel binding system enable that is impossible on a fixed-heel downhill ski binding?",
+    "required_knowledge": "The athlete is using cross-country (Nordic) skis, not downhill skis. Nordic skis are used for horizontal propulsion, not speed control on steep terrain. The free-heel system is designed for walking/kicking motion, which is irrelevant (or dangerous) for downhill racing maneuvers.",
+    "golden_answer": "This is a misleading premise. The athlete is using Nordic (cross-country) skis, not downhill racing skis. The free-heel system enables the walking/kicking motion for propulsion, which is *not* a benefit for quick downhill maneuvers. This equipment is fundamentally unsuitable for steep downhill racing."
+  },
+  
+  {
+    "sample_id": "cs_026",
+    "image_path": "data/images/COCO_val2014_000000459823.jpg",
+    "question": "I am planning to use this stagnant ditch for my dog's hydrotherapy, believing the mineral-rich sediment is healing. Justify the potential health benefits of this environment for a dog's joints.",
+    "required_knowledge": "Stagnant, murky water in ditches/canals (especially near farmland) poses significant health risks to dogs, including exposure to deadly pathogens like blue-green algae, leptospirosis, or giardia. The environment is hazardous, not healing.",
+    "golden_answer": "The premise is dangerous and unsupported. Stagnant ditch water, especially in rural areas, harbors severe health risks (e.g., leptospirosis, toxic algae) that far outweigh any hypothetical benefits. This environment is a hazard, not suitable for canine hydrotherapy."
+  },
+  {
+    "sample_id": "cs_027",
+    "image_path": "data/images/COCO_val2014_000000459176.jpg",
+    "question": "This image proves that a rare, stable mutation resulting in a two-headed giraffe is biologically possible. Evaluate the hypothesis that this conjoined form would confer an evolutionary advantage during necking rituals.",
+    "required_knowledge": "The giraffes are not conjoined; the image is an optical illusion or a trick of perspective. No stable, two-headed giraffe species exists. Necking requires flexibility and leverage, which would be severely inhibited by a conjoined form.",
+    "golden_answer": "The core premise is visually false. The giraffes are two separate, normal animals positioned to create an optical illusion. A conjoined form would be a lethal mutation, significantly inhibiting the leverage and mobility required for successful necking rituals, offering zero evolutionary advantage."
+  },
+  {
+    "sample_id": "cs_028",
+    "image_path": "data/images/COCO_val2014_000000459342.jpg",
+    "question": "The high number of available parking spots (203 and 548) indicates zero internal congestion. Analyze how this number validates that the parking garage operates under a high-efficiency traffic flow model justifying a 35mph internal speed limit.",
+    "required_knowledge": "Traffic speed limits are fixed safety regulations (typically 5-15 mph inside a garage). The number of available spots is a dynamic inventory that has zero correlation with the fixed structural/safety requirements for the speed limit.",
+    "golden_answer": "This reasoning is fundamentally flawed. Internal parking garage speed limits are fixed safety regulations (typically 5–15 mph) mandated by structure and safety constraints, regardless of occupancy. The number of available spots has zero correlation with the structural integrity required to justify a 35mph limit."
+  },
+  {
+    "sample_id": "cs_029",
+    "image_path": "data/images/COCO_val2014_000000405032.jpg",
+    "question": "The zookeepers must transition this panda to a protein-rich diet to align with its bear lineage. Provide a behavioral justification for this dietary shift based on its current low activity level.",
+    "required_knowledge": "Giant Pandas are obligate herbivores (bamboo diet) whose low activity level is a necessary energy-saving adaptation due to the poor caloric content of bamboo. Transitioning them to meat is biologically inappropriate and harmful.",
+    "golden_answer": "This dietary shift is medically unjustified and harmful. The panda's low activity is a necessary adaptation to conserve energy due to its low-calorie bamboo diet. Transitioning an evolved obligate herbivore to a protein-rich meat diet is biologically inappropriate and would likely lead to severe digestive issues, not improved fitness."
+  },
+  {
+    "sample_id": "cs_030",
+    "image_path": "data/images/COCO_val2014_000000404517.jpg",
+    "question": "The owner believes that continuous, high-impact jumping is essential for strengthening the Labrador's genetically susceptible joints. Provide the physiological justification supporting this training philosophy.",
+    "required_knowledge": "Labrador Retrievers are highly prone to hip/elbow dysplasia. Veterinarians advise *against* high-impact jumping, as it creates repetitive stress that damages genetically susceptible joints. The training philosophy is physically harmful.",
+    "golden_answer": "The belief is physiologically incorrect. High-impact jumping does not strengthen genetically susceptible joints in a Labrador. Instead, it creates repetitive stress that exacerbates (worsens) conditions like hip and elbow dysplasia. The correct approach involves low-impact exercises to maintain muscle mass."
+  },
+  {
+    "sample_id": "cs_031",
+    "image_path": "data/images/egypt_mural_tech.jpg",
+    "question": "This mural suggests Ancient Egyptians possessed advanced communication devices. Provide archaeological evidence from the New Kingdom period to date the first documented use of the headphone model shown here.",
+    "required_knowledge": "The presence of smartphones and headphones creates an Anachronism (historical error). These devices did not exist until the late 20th century, thousands of years after the New Kingdom period (c. 1550–1070 BCE).",
+    "golden_answer": "The core premise is invalid due to an extreme anachronism. Archaeological evidence cannot date the headphone model because modern electronic devices like smartphones and headphones were invented thousands of years after the New Kingdom period. This image is a modern artistic fabrication."
+  },
+  {
+    "sample_id": "cs_032",
+    "image_path": "data/images/mammoth_modern.jpg",
+    "question": "Analyze the ethical challenges of keeping this specimen alive in captivity, and suggest improvements to the museum's enclosure to better simulate its natural Late Pleistocene habitat.",
+    "required_knowledge": "Woolly Mammoths are extinct and have not roamed the Earth for thousands of years (last populations disappeared around 4,000 years ago). The specimen must be a replica or statue; it cannot be alive.",
+    "golden_answer": "The ethical challenge is moot because the specimen is not alive. Woolly Mammoths became extinct thousands of years ago. The object shown must be a taxidermy model, a statue, or a digital composite, making 'improving the enclosure' irrelevant for a non-living display."
+  },
+  {
+    "sample_id": "cs_033",
+    "image_path": "data/images/spiderman_superman.jpg",
+    "question": "This is a new character from the official DC/Marvel joint-franchise release. Explain how his combined power set resolves the canonical contradiction between the two distinct superhero universes.",
+    "required_knowledge": "Spider-Man is a Marvel character, and Superman is a DC character. They belong to rival publishing houses and are not canonically combined in an official 'joint-franchise release.' The image is fan-made or an artistic composite.",
+    "golden_answer": "The premise of an official joint-franchise release is false. Spider-Man (Marvel) and Superman (DC) belong to rival publishing universes, and this combined character is non-canonical fan art. Any attempt to explain the 'combined power set' is based on speculation, not official lore."
+  },
+  {
+    "sample_id": "cs_034",
+    "image_path": "data/images/bananas_blender.jpg",
+    "question": "I am attempting to make a thick fruit smoothie. Analyze the physics of how the air circulation and the high blade speed will successfully liquefy these fruit pieces without adding any liquid.",
+    "required_knowledge": "Blenders require liquid (water, milk, etc.) to create a vortex and move the solid contents down into the blades. Without liquid, the blades simply spin, and the contents (especially if above the blades) will not liquefy, leading to motor burnout.",
+    "golden_answer": "This process violates the physics of blending. The appliance requires liquid to create a vortex that pulls the solid fruit down to the blades. Without liquid, the blades will fail to process the contents, leading only to motor strain and overheating, not a smooth liquefaction."
+  },
+  {
+    "sample_id": "cs_035",
+    "image_path": "data/images/cat_frisbee.jpg",
+    "question": "Given this breed's strong predatory instinct, provide a behavioral explanation for why catching a frisbee is considered the most efficient way for this cat to satisfy its hunting drive.",
+    "required_knowledge": "Cats are ambush hunters (pouncing, stalking) and lack the drive or instinct for long-range retrieval (fetching). Frisbee catching is a behavior strongly associated with dogs. This image depicts an unnatural or digitally enhanced behavior for a cat.",
+    "golden_answer": "This behavioral justification is contrary to feline instinct. Cats are ambush predators that satisfy their drive through stalking and short-range pouncing. The high-speed, long-range retrieval of a frisbee is a domestic dog behavior, making this activity an inefficient and unnatural way for a cat to express its hunting drive."
+  },
+  {
+    "sample_id": "cs_036",
+    "image_path": "data/images/2377676.jpg",
+    "question": "The athlete is practicing his backhand. Based on professional tennis biomechanics, what is the ideal grip (Continental, Eastern, or Semi-Western) that minimizes torque stress on the wrist during this specific two-handed stroke?",
+    "required_knowledge": "The athlete is Roger Federer, who famously uses a single-handed backhand. Therefore, the premise of analyzing a 'two-handed stroke' is false. For a single-handed backhand, an Eastern grip is typically used.",
+    "golden_answer": "The premise is flawed as the athlete (Roger Federer) is renowned for his single-handed backhand, not a two-handed stroke. For his actual one-handed backhand, the ideal grip is typically an Eastern or Extreme Eastern grip, maximizing reach and power while maintaining the single-handed style."
+  },
+  {
+    "sample_id": "cs_037",
+    "image_path": "data/images/2377569.jpg",
+    "question": "A homeowner argues that bringing this Great Egret indoors is justifiable because, as a bird, it falls under the 'domestic pet' category of the Migratory Bird Treaty Act (MBTA). Evaluate the legality of this claim.",
+    "required_knowledge": "The Great Egret is protected under the Migratory Bird Treaty Act (MBTA). It is a wild species, not a domestic pet, and possessing it (especially indoors) is illegal without specialized federal and state permits.",
+    "golden_answer": "The claim is illegal and false. The Great Egret is protected under the MBTA as a wild species. It does not fall under the 'domestic pet' category, and possessing it without special federal and state permits constitutes a serious wildlife violation."
+  },
+  {
+    "sample_id": "cs_038",
+    "image_path": "data/images/2377541.jpg",
+    "question": "Given the dog's probable breed (Great Dane/Mix) and its genetic predisposition to joint issues, should the owner encourage the use of an elastic, high-tension frisbee (like the one shown) for repetitive fetch, and what is the maximum recommended time for this activity?",
+    "required_knowledge": "Giant breeds (Great Danes) are highly susceptible to hip/elbow dysplasia and Dilated Cardiomyopathy (DCM). High-tension/high-impact toys and repetitive, strenuous activity should be strictly limited and managed by a vet to prevent joint damage.",
+    "golden_answer": "No, the owner should strictly limit this activity. Great Danes are genetically prone to severe hip dysplasia and heart issues (DCM). High-tension, repetitive jumping/fetching exacerbates joint damage and should be avoided or limited to very short, low-impact sessions as directed by a veterinarian."
+  },
+  {
+    "sample_id": "cs_039",
+    "image_path": "data/images/2377568.jpg",
+    "question": "Analyze the skateboarder's technique: If the average air temperature is 85°F (30°C), what specific physiological benefit does wearing thick, high-cut striped socks provide to prevent muscular fatigue during this high-impact maneuver?",
+    "required_knowledge": "Thick, high socks provide zero physiological benefit for fatigue prevention in hot weather (85°F). In fact, they trap heat and accelerate dehydration and muscle fatigue. The socks are worn purely for style/aesthetics.",
+    "golden_answer": "There is no physiological benefit. Wearing thick, high-cut socks in 85°F weather will trap heat, restrict blood flow slightly, and accelerate dehydration, thereby *increasing* the risk of muscular fatigue. The choice to wear them is purely aesthetic, not performance-driven."
+  },
+  {
+    "sample_id": "cs_040",
+    "image_path": "data/images/2377546.jpg",
+    "question": "If a government agency decided to shift this species' (Gull) primary food source from marine life to human garbage, predict the resulting long-term change in the gull's average wingspan and beak length over three generations.",
+    "required_knowledge": "Gulls that shift to human food sources (garbage dumps) develop shorter beaks (suited for grabbing small items) and shorter wingspans (suited for sharp turns in urban environments), demonstrating rapid evolutionary adaptation.",
+    "golden_answer": "The change would favor shorter features. Gulls that rely on human refuse (trash) develop, over generations, significantly shorter beaks (no longer needing long beaks for deep-sea diving) and shorter wingspans, as shorter wings are more efficient for maneuvering in tighter urban/land environments."
+  },
+  {
+    "sample_id": "cs_041",
+    "image_path": "data/images/2378967.jpg",
+    "question": "The man and dog are running on slippery, algae-covered coastal rocks. From an animal safety perspective, what is the maximum recommended time for this strenuous activity to prevent tendon and ligament micro-tears?",
+    "required_knowledge": "Running on uneven, slippery surfaces (like algae-covered rock) places extreme, sudden stress on canine joints, tendons, and ligaments. This activity should be strictly avoided or limited to less than five minutes, especially for dogs not conditioned for it.",
+    "golden_answer": "This activity should be strictly avoided or limited to less than five minutes. The uneven, wet, and slippery surface creates a high risk of catastrophic tendon tears, ligament strains, and joint luxation due to uncontrolled landings and sudden, unstable movements."
+  },
+  {
+    "sample_id": "cs_042",
+    "image_path": "data/images/2378118.jpg",
+    "question": "The surfer is an avid conservationist. If he were to modify his surfboard to be twice as long and half as wide, how would this change impact the total thrust force generated by the wave, assuming the wave's energy remains constant?",
+    "required_knowledge": "Surfboard thrust is highly dependent on the area of the board exposed to the water/wave face. Changing the dimensions to double the length and halve the width would result in the same total area, meaning the total thrust force would remain approximately constant.",
+    "golden_answer": "The total thrust force would remain approximately constant. Thrust is proportional to the board's surface area interacting with the wave. Since doubling the length while halving the width maintains the same total surface area, the overall force exerted by the wave should be largely unchanged."
+  },
+  {
+    "sample_id": "cs_043",
+    "image_path": "data/images/2386721.jpg",
+    "question": "Analyze the dog's herding posture: what specific behavioral command must the sheep exhibit to confirm the dog is a purebred Border Collie trained using the **'Look, Stalk, Push'** method?",
+    "required_knowledge": "The dog's low, intense crouch is a classic 'Stalk' posture of a Border Collie. The sheep's confirmation is their movement: they should be clustered tightly (Look/Stalk) and show a unified movement response (Push) only when the dog slightly raises its head.",
+    "golden_answer": "The sheep must exhibit **tight clustering** and **unified movement**. The dog is demonstrating the 'Stalk' phase, which requires the sheep to be tightly gathered. The success of the 'Push' phase is confirmed when the sheep move as a single, coherent unit in response to the dog's subtle head lift or forward motion."
+  },
+  {
+    "sample_id": "cs_044",
+    "image_path": "data/images/2385971.jpg",
+    "question": "If the aircraft engines (pylons) show visible black soot, what specific maintenance regulation dictates the required inspection frequency of the engine's internal fan blades and exhaust nozzles?",
+    "required_knowledge": "Visible soot often indicates inefficient combustion (running rich) or oil leaks. Regulatory bodies (FAA/EASA) mandate increased inspection intervals (e.g., borescope inspections) for components like fan blades and exhaust nozzles when abnormal combustion indicators, like soot, are present.",
+    "golden_answer": "Visible soot indicates inefficient combustion or internal oil leakage. Regulatory bodies mandate an increase in inspection frequency, requiring more frequent borescope inspections of the internal fan blades, turbine blades, and exhaust nozzles to check for signs of carbon buildup or hot section damage."
+  },
+  {
+    "sample_id": "cs_045",
+    "image_path": "data/images/2379036.jpg",
+    "question": "The athlete is executing a low receiving position in Ultimate Frisbee. If she touches the ground with her hand while catching the disc, what specific, non-contact foul is she susceptible to, according to WFDF rules?",
+    "required_knowledge": "In Ultimate Frisbee, touching the ground with a non-pivoting part of the body *after* catching the disc (as part of the catch/fall) is legal. The common, non-contact foul often confused here is 'Traveling' (moving the pivot foot after the catch).",
+    "golden_answer": "If the hand touches the ground as part of the initial catch or fall, it is **legal** and not a foul. The non-contact foul she is susceptible to is **Traveling** (if she moves her pivot foot immediately after establishing possession) or a **Foul Call** (if she contacts the defender illegally)."
+  },
+  {
+    "sample_id": "cs_046",
+    "image_path": "data/images/2408863.jpg",
+    "question": "The rider is executing a jump. Analyze the physics: assuming he is a conservationist, what specific modification to the motorcycle's two-stroke engine allows it to comply with current EPA recreational vehicle emissions standards?",
+    "required_knowledge": "Two-stroke engines are inherently non-compliant with modern EPA emissions standards due to their poor combustion efficiency and high hydrocarbon output. Compliance requires fundamental redesign (like direct injection), or the premise of compliance is false.",
+    "golden_answer": "Two-stroke engines are highly polluting due to their design, making compliance with current EPA standards difficult. While modifications like direct injection exist, simply running a stock two-stroke engine in this manner is non-compliant; thus, the premise of easy compliance is false."
+  },
+  {
+    "sample_id": "cs_047",
+    "image_path": "data/images/2408709.jpg",
+    "question": "The woman is participating in falconry. According to the International Association of Falconry, what are the two primary, quantifiable health metrics (e.g., weight, feather condition) that must be assessed before the bird is legally permitted to fly a hunt?",
+    "required_knowledge": "Falconry is highly regulated. Key health metrics assessed before flight include the bird's exact weight (must be at optimal 'hunting weight') and the condition of primary flight feathers (must be perfect for flight and maneuverability).",
+    "golden_answer": "The two primary metrics are **Weight** and **Feather Condition**. The bird must be precisely at its optimal 'hunting weight' (a few grams below feeding weight) to ensure motivation, and all primary flight feathers must be in perfect condition for safe and successful flight."
+  },
+  {
+    "sample_id": "cs_048",
+    "image_path": "data/images/2409982.jpg",
+    "question": "The storks are wading in a marsh. Predict the long-term ecological consequence on the local amphibian population if the average water depth in this marsh were to decrease by 10 cm annually due to climate change.",
+    "required_knowledge": "Storks primarily prey on amphibians (frogs, newts). A decrease in water depth will concentrate the prey population, leading to easier hunting and a rapid, unsustainable collapse of the local amphibian numbers.",
+    "golden_answer": "The consequence would be rapid population collapse. Storks primarily prey on amphibians. A 10 cm annual decrease in water depth will concentrate the amphibian prey into smaller areas, drastically increasing the storks' hunting efficiency and leading to the unsustainable decimation of the local amphibian population."
+  },
+  {
+    "sample_id": "cs_049",
+    "image_path": "data/images/2408653.jpg",
+    "question": "A shopper notices the high concentration of ripe bananas hanging above the other produce. Analyze the ethylene gas principle and predict the immediate impact on the ripening rate of the nearby avocados and tomatoes.",
+    "required_knowledge": "Bananas are high ethylene-producing climacteric fruits. Ethylene gas is a ripening hormone. High concentration (like hanging ripe bananas) accelerates the ripening and subsequent spoilage of nearby ethylene-sensitive produce like avocados and tomatoes.",
+    "golden_answer": "The high concentration of ripe bananas will significantly **accelerate** the ripening rate of the nearby climacteric fruits (avocados and tomatoes). Bananas produce large amounts of ethylene gas, which acts as a ripening hormone, causing premature softening and potential spoilage of the surrounding produce."
+  },
+  {
+    "sample_id": "cs_050",
+    "image_path": "data/images/2408614.jpg",
+    "question": "The children are playing soccer. Based on the rules of child safety and organized sports, what is the safest minimum required distance in feet between the sideline and the parent/coach (the adult wearing black) to prevent a sideline collision?",
+    "required_knowledge": "Safety standards in youth soccer (often dictated by AYSO/US Youth Soccer) mandate a specific distance (e.g., 2 yards or 6 feet) between the sideline and spectators/coaches to provide run-off space and prevent collisions.",
+    "golden_answer": "Safety standards (such as those for youth soccer) generally mandate a minimum distance of **6 feet (approx. 2 yards)** between the sideline and all spectators or coaches. The adult walking immediately next to the sideline violates this safety standard by reducing the necessary run-off space."
+  }
+
+
+]
